@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+   
+}
+.header .headernav{
+    gap: 20px;
+    align-items: center;
+}
+.headernav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 40px 20px;
+    color: #626a76;
+}
+.seachheader{
+    align-items: center;
+    display: flex;
+}
+.seachheader .search{
+    font-size: 25px;
+    padding: 8px 13px;
+    /* background-color: #626a76; */
+    /* color: white; */
+    border-radius: 5px;
+}
+.seachheader .search:hover{
+    color: orange;
+}
+.seachheader input{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    
+
+}
+.headernav a:hover{
+    color: orange;
+}
+.saleoff{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: #3e413e;
+}
+.saleoff .boxleft{
+    width: 50%;
+}
+.saleoff .boxleft{
+    min-height: 350px;
+    text-align: center;
+    top: 29px;
+}
+.saleoff .boxleft span:nth-child(1){
+    color: #fff;
+    font-size: 60px;
+}
+.saleoff .boxleft span:nth-child(2){
+    color:orange;
+    font-size: 150px;
+}
+.saleoff .boxright{
+    top: 0px;
+    right: 0px;
+}
+#discounts {
+    padding-top: 600px;
+    padding-left: 30%;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 10px;  
+}
+#discounts h2{
+    padding-bottom: 70px;
+    padding-left: 160px;
+    font-size: 40px;
+    color: orange;
+}
+.discount{
+    padding: 20px;
+    width: 500px;
+    height: 120px;
+    background-color: #28292b;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.discount h3 {
+    margin: 0;
+}
+
+.discount p {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #484747;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: orange;
+}
+.footer{
+    width: 100%;
+    background: rgba(0,0,0,0.79);
+    height: 322px;
+    margin-top: 200px;
+    /* padding: 0 63px; */
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .box{
+    width: 250px;
+    color: #fff;
+}
+.footer .box p{
+    font-size: 15px;
+}
+.footer .box .quickmenu .item{
+    margin-top: 12px;
+}
+.footer .box .quickmenu .item a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .box .quickmenu .item a:hover{
+    color: orange;
+}
+.footer .box form input{
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    margin-left: 20px;
+    color: #fff;
+    display: block;
+    margin: 10px 0px;
+}
+
+.footer .box form .button1, .button2{
+    display: flex;
+    align-items: center;
+}
+.footer .box form i{
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+.footer .box form button{
+    background-color: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 19px;
+    color: #fff;
+}
+
